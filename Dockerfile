@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM nginx:1.11.5-alpine
 MAINTAINER Ash Wilson <smashwilson@gmail.com>
 
 #We need to install bash to easily handle arrays
