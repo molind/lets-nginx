@@ -1,5 +1,5 @@
-FROM nginx:1.11.7-alpine
-MAINTAINER Ash Wilson <smashwilson@gmail.com>
+FROM nginx:alpine
+MAINTAINER Evgen Bodunov <molind@gmail.com>
 
 #We need to install bash to easily handle arrays
 # in the entrypoint.sh script
